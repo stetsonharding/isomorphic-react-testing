@@ -10,6 +10,7 @@ import { connect } from 'react-redux';
  */
 export const QuestionDetailDisplay = ({title,body,answer_count,tags})=>(
     <div>
+        <h1>Testing Branch</h1>
         <h3 className="mb-2">
             {title}
         </h3>
@@ -20,7 +21,7 @@ export const QuestionDetailDisplay = ({title,body,answer_count,tags})=>(
                 </div>
                 <Markdown source={body}/>
                 <div>
-                    {answer_count} Answers
+                    {answer_count} Answers 
                 </div>
             </div> :
             <div>
